@@ -1,0 +1,40 @@
+.letra {
+    margin: 75px 0 0 35px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 35px;
+    background-color: #DCDCDC;
+    border: 10px solid #000;
+    border-radius: 35px;
+}
+
+.letra .titulo {
+    display: flex;
+    align-items: center;
+    gap: 15px;    
+}
+
+.letra .titulo img{
+    width: 85px;
+    border-radius: 50%;
+}
+
+.letra  p{
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+
+.video iframe{
+    border: 3px solid #000;
+    border-radius: 20px;
+    position: fixed;
+    right: 5px;
+    width: 45%;
+    margin-top: 100px;
+}

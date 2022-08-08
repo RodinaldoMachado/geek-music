@@ -5,57 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Músicas que gosto</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>Geek.Music</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
-    
-    <link rel="shortcut icon" href="https://i.pinimg.com/736x/ae/54/22/ae54220a2757ba52a3b7fd8092c2041a--tattoo-ideas-silhouette.jpg" type="image/x-icon"LO />
+
+    <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
 </head>
 
 <body>
-    <h1>Músicas que Gosto</h1>
+    <header class="cabecalho">
+        <div class="logo-titulo">
+            <a href="index.html" class="logo">
+                <img src="src/imagens/logo.png" alt="">
+                <h1>Geek.Music</h1>
+            </a>
+        </div>
+        <nav>
+            <ul class="categoria">
+                <li><a href="src/musicas/allmusics.html">Músicas</a></li>
+                <li><a href="#">Artista</a></li>
+                <li><a href="#">Anime</a></li>
+                <li><a href="#">Personagem</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <ul>
-        <li class="lista pilar-das-chamas">
-            <a href="https://www.youtube.com/watch?v=XXFFPE11_7s" target="_blank">
-                <img src="https://sm.ign.com/ign_br/screenshot/default/kyojuro-rengoku-kimetsu-no-yaiba_e6sd.jpg"
-                    alt="imagem do hashira das chamas kyojuro Rengoku" class="img">
-                <p class="">Enygma - <strong>Pilar das Chamas</strong></p>
-            </a>
-            <hr class="linha">
-            <a href="https://www.letras.mus.br/kg-raps/rap-dos-hashiras/" target="_blank">
-                <p>Letra</p>
-            </a>
-        </li>
+    <main>
+        <section class="secao-busca">
+            <img src="src/imagens/logo-fundo-branco.png" alt="logo da pagina com fone preto">
+            <div class="container-buscar">
+                <input type="text">
+                <button>buscar</button>
+            </div>
+        </section>
 
-        <li class="lista noite-de-caca">
-            <a href="https://www.youtube.com/watch?v=LzYxC6r3wtU" target="_blank">
-                <img src="https://criticalhits.com.br/wp-content/uploads/2020/05/Tanjiro-Inosuke-Zenitsu.png"
-                    alt="imagem do tanjirou zenitsu e inosuke" class="img">
-                <p>Lexclesh - <strong>Noite de Caça</strong></p>
-            </a>
-            <hr class="linha">
-            <a href="https://www.letras.mus.br/lexclash/noite-de-caca/" target="_blank">
-                <p>Letra</p>
-            </a>
-        </li>
-
-        <li class="lista a-vontade-do-fogo">
-            <a href="https://www.youtube.com/watch?v=W8dWDjwkMDw" target="_blank">
-                <img src="https://img.quizur.com/f/img5f32ce3121ad69.24124188.jpeg?lastEdited=1597165111"
-                    alt="imagem dos hokages" class="img">
-                <p>7Minutoz - <strong>A Vontade do Fogo</strong></p>
-            </a>
-            <hr class="linha">
-            <a href="https://www.letras.mus.br/7-minutoz/rap-dos-hokages-a-vontade-do-fogo/" target="_blank">
-                <p>Letra</p>
-            </a>
-        </li>
-    </ul>
+        <section></section>
+        <section></section>
+    </main>
 </body>
 
 </html>

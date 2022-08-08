@@ -1,0 +1,109 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 1.6rem;
+    margin: 0 auto;;
+}
+
+.cabecalho {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #000;
+    box-shadow: 0 0 5px 1px #000;
+    background-color: #DCDCDC
+}
+
+.cabecalho img {
+    width: 70px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.cabecalho .logo-titulo {
+    border: 1px solid #000;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 0 5px 1px #000;
+    background-color: #000;
+}
+
+.cabecalho .logo-titulo a {
+    display: flex; 
+    align-items: center;
+}
+
+.cabecalho .logo-titulo h1 {
+    padding: 8px;
+    font-size: 45px;
+    text-shadow: 5px 3px 10px  red;
+    color: yellow;
+}
+
+.cabecalho .logo-titulo h1:hover {
+    font-size: 45px;
+    text-shadow: 5px 3px 10px  yellow;
+    color: #fff;    
+}
+
+.cabecalho .categoria  {
+    display: flex;
+    gap: 35px;
+    padding-right: 35px;
+    font-size: 20px;
+}
+
+.cabecalho .categoria a {
+    border: 1px solid #000;
+    padding: 5px 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 1px #000;
+    background-color: #fff;
+}
+
+.cabecalho .categoria a:hover {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.secao-busca {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    border: 10px solid #000;
+    border-radius: 35px;
+    margin: 30px auto;
+    background-color: #DCDCDC
+}
+
+.secao-busca img {
+    width: 300px;
+}
+
+.secao-busca .container-buscar {
+    display: flex;
+    padding-bottom: 100px;   ; 
+}
+
+.secao-busca .container-buscar input {
+    width: 350px;
+    height: 35px;
+    border: 2px solid #000;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.secao-busca .container-buscar button {
+    width: 60px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 18px;
+}
+
+/* ===== pagina home ============================== */

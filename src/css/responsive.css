@@ -1,0 +1,138 @@
+@media (max-width: 1200px){
+
+}
+
+@media (max-width: 900px){
+    .cabecalho .logo-titulo h1 {
+        font-size: 30px;
+    }
+    .cabecalho .categoria  {
+        gap: 15px;
+        padding-right: 15px;
+        font-size: 18px;
+    }
+
+    .video {
+        width: 100%;
+    }
+    .main {
+        flex-direction: column-reverse;
+    }
+
+    .video iframe{
+        width: 10 auto;
+        display: flex;
+        justify-content:center;
+        position: static;
+        border: 8px solid #000;
+        border-radius: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .letra {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 700px){
+    .cabecalho .logo-titulo h1{
+        display: none;
+    }
+
+    .secao-todas-as-musicas ul li h3 {
+        font-size: 20px;
+    }
+
+    .letra {
+        border: 8px solid #000;
+        border-radius: 0px;
+    }
+
+}
+
+@media (max-width: 550px){
+    .cabecalho {
+        height: 50px;
+    }
+
+    .cabecalho .logo-titulo img{
+        width: 50px;
+    }
+    .cabecalho .categoria  {
+        gap: 5px;
+        padding-right: 2px;
+        font-size: 16px;
+    }
+
+    .secao-busca img {
+        width: 200px;
+    }
+
+    .secao-busca .container-buscar input {
+        width: 270px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .cabecalho .categoria a{
+        padding: 2px 8px ;
+    }
+
+    .secao-todas-as-musicas ul li h3 {
+        font-size: 18px;
+    }
+
+    .secao-todas-as-musicas ul li img {
+        width: 75px;
+        height: 40px;
+    }
+
+    .secao-todas-as-musicas {
+        padding: 5px;
+    }
+
+    .letra  p{
+        font-size: 16px;
+    }    
+
+    .letra {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 430px) {
+    .secao-todas-as-musicas ul li h3 {
+        font-size: 16px;
+    }
+
+    .letra .titulo h2{
+        font-size: 22px;
+    }
+
+    .letra .titulo h3{
+        font-size: 18px;
+    }
+
+    .letra .titulo img{
+        width: 65px;
+    }
+}
+
+@media (max-width: 380px) {
+    .cabecalho .categoria  {
+        gap: 8px;
+        font-size: 15px;
+    }
+
+    .cabecalho .categoria a{
+        padding: 2px 5px ;
+        border-radius: 1px;
+    }
+
+    .secao-busca .container-buscar input {
+        width: 200px;
+        height: 35px;
+        font-size: 16px;
+    }
+}
